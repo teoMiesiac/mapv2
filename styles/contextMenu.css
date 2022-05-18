@@ -1,0 +1,32 @@
+.menu {
+  z-index: 300;
+}
+
+.react-contextmenu {
+  background-color: #fff;
+  border-radius: 10px;
+  transition: opacity 250ms ease !important;
+  font-size: 1rem;
+}
+
+.react-contextmenu--visible {
+  border-radius: 50px;
+}
+
+.react-contextmenu-item {
+  padding: 10px;
+  background-color: white;
+  outline: none;
+}
+
+.react-contextmenu-item:first-of-type {
+  border-radius: 10px 10px 0 0;
+}
+
+.react-contextmenu-item:last-of-type {
+  border-radius: 0 0 10px 10px;
+}
+
+.react-contextmenu-item:hover {
+  background-color: lightgray;
+}

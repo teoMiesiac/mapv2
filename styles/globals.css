@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+html {
+  box-sizing: border-box;
+  font-family: "Inter";
+  /* font-size: 62.5%; */
+}

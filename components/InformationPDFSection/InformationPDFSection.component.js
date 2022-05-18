@@ -1,74 +1,22 @@
-import Link from "next/link";
-import { Container, Nav, NavDropdown, Row, Col } from "react-bootstrap";
+import React from "react";
+import {
+  Section,
+  Container,
+  Pre,
+  TextHeader,
+  TextLine,
+  InvestorsContainer,
+  Investors,
+  Separator,
+  InvestorsContent,
+} from "./InformationPDFSection.styles";
+import { KujPomHerb } from "../../components/KujPomHerb";
+import { ZDWLogo } from "../../components/ZDWLogo";
 
-import { KujPomHerb } from "../components/KujPomHerb";
-import { ZDWLogo } from "../components/ZDWLogo";
-import styled from "styled-components";
-
-export const Pre = styled.div`
-  width: 100%;
-  height: 100%;
-`;
-
-export const TextHeader = styled.h3`
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 30px;
-  width: 100%;
-`;
-
-export const TextLine = styled.p`
-  font-size: 1rem;
-  line-height: 24px;
-  width: 100%;
-  text-align: justify;
-  b {
-    font-weight: 600;
-  }
-`;
-
-export const InvestorsContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-
-export const Investors = styled.div`
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-`;
-
-export const InvestorsContent = styled.div`
-  max-width: 540px;
-  width: 100%;
-`;
-
-export const Separator = styled.div`
-  width: 40px;
-`;
-
-export const Contractor = styled.img`
-  width: 200px;
-  height: auto;
-`;
-
-export const Redirect = styled(Link)`
-  color: #2196f3;
-  font-weight: 500;
-  transition: all 0.3s ease 0s;
-
-  &:hover {
-    opacity: 0.8;
-  }
-`;
-
-export default function Home() {
-  return (
-    <Container className="text-justify">
+const InformationPDFSection = () => (
+  <Section>
+    <Container className="d-flex justify-content-sm-center">
       <Pre>
-        <br />
         <TextHeader>Obwodnica Więcborka – II konsultacje społeczne</TextHeader>
         <br />
         <TextLine>Szanowni Państwo,</TextLine>
@@ -78,9 +26,8 @@ export default function Home() {
           których celem jest wybór wariantu rekomendowanego do realizacji dla
           obwodnicy Więcborka. Podczas I konsultacji nie wyłoniono rozwiązania
           inwestycyjnego, które uzyskałoby akceptację wszystkich
-          zainteresowanych stron. W zakładce „Uwagi i wnioski” znajdą Państwo
-          zestawienie wszystkich wniosków, zgłoszonych w ramach I konsultacji
-          społecznych.
+          zainteresowanych stron. W zakładce znajdą Państwo zestawienie
+          wszystkich wniosków, zgłoszonych w ramach I konsultacji społecznych.
         </TextLine>
         <br />
         <TextLine>
@@ -91,9 +38,9 @@ export default function Home() {
         <TextLine>
           Zachęcamy Państwa do zapoznania się z przebiegiem proponowanych
           rozwiązań obwodnicy. Na mapie wskazano wszystkie warianty obejścia
-          (zakładka „Plan Orientacyjny”). Istnieje możliwość pomiaru odległości
-          od danej trasy do np. posesji. Szczegółowy opis wariantów
-          inwestycyjnych zawarto w zakładce „Opis wariantów”.
+          (zakładka . Istnieje możliwość pomiaru odległości od danej trasy do
+          np. posesji. Szczegółowy opis wariantów inwestycyjnych zawarto w
+          zakładce
         </TextLine>
         <br />
         <TextLine>
@@ -117,9 +64,22 @@ export default function Home() {
         </TextLine>
         <br />
         <br />
+        <InvestorsContainer>
+          <InvestorsContent>
+            <TextLine>Inwestor:</TextLine>
+            <br />
+            <Investors>
+              <KujPomHerb full={true} />
+              <Separator />
+              <ZDWLogo full={true} />
+            </Investors>
+          </InvestorsContent>
+        </InvestorsContainer>
         <br />
         <br />
       </Pre>
     </Container>
-  );
-}
+  </Section>
+);
+
+export default InformationPDFSection;
