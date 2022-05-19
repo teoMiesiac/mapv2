@@ -2,11 +2,12 @@ import React, { memo } from "react";
 import { ContextMenuTrigger } from "react-contextmenu";
 
 import { Wrapper, InnerWrapper, Pin } from "./marker.styles";
-import pinA from "../../public/images/pinA.png";
-import pinB from "../../public/images/pinB.png";
+const pinA = "./images/pinA.png";
+const pinB = "./images/pinB.png";
 
-export const Marker = memo(({ x, y, type, scale = 1 }) => {
+export const Marker = ({ x, y, type, scale = 1 }) => {
   const calculatedScale = 1 / scale;
+  // console.log(calculatedScale);
   const transform = { transform: `scale(${calculatedScale}) translateX(-50%)` };
   return (
     <>
@@ -32,6 +33,6 @@ export const Marker = memo(({ x, y, type, scale = 1 }) => {
       </Wrapper>
     </>
   );
-});
+};
 
 Marker.displayName = "Marker";

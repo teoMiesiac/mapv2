@@ -35,3 +35,37 @@ export const MapWrapper = styled.div`
 export const MapImg = styled.img`
   max-width: none;
 `;
+
+export const TextLine = styled.p`
+  font-size: 1rem;
+  line-height: 24px;
+  width: 100%;
+  text-align: justify;
+  b {
+    font-weight: 600;
+  }
+`;
+
+export const Text = styled.div`
+  font-size: 1rem;
+  display: block;
+  text-align: justify;
+`;
+
+export const TextMobile = styled(Text)`
+  @media (min-width: ${1280}px) {
+    display: none;
+  }
+`;
+
+export const TextDesktop = styled(Text)`
+  display: none;
+  line-height: 24px;
+  @media (min-width: ${1280}px) {
+    display: block;
+  }
+`;
+
+export const Distance = styled.div`
+  font-size: 1.2rem;
+`;
