@@ -31,7 +31,7 @@ const headerHeight = 80;
 
 export const Map = () => {
   const [{ pointerA, pointerB }, dispatch] = useMapContext();
-
+  const [disableContext, setDisableContext] = useState(false);
   const [x, setX] = useState(0);
   const [y, setY] = useState(0);
   const [markerA, setMarkerA] = useState(null);
@@ -106,10 +106,15 @@ export const Map = () => {
 
   const handleStart = () => {
     setCursorStyle(moveCursorStyle);
+    console.log("started dragging");
+    setDisableContext(true);
   };
 
   const handleStop = () => {
     setCursorStyle(defaultCursorStyle);
+    console.log("stoped dragging");
+
+    setDisableContext(false);
   };
 
   const onTouchStart = (e) => {
@@ -119,6 +124,7 @@ export const Map = () => {
     );
   };
 
+  //console.log("disabled", disableContext);
   return (
     <Container>
       <ContextMenuTrigger id="same_unique_identifier" holdToDisplay={1000}>
