@@ -9,120 +9,164 @@ const VariantsDescriptionSection = () => (
   <Section>
     <Container>
       <br />
-      <TextHeader>Podstawowe parametry techniczne</TextHeader>
+      <TextHeader>WARIANT I – OPIS KORYTARZA TRASY W PLANIE</TextHeader>
       <br />
-      <TextHeader>Obwodnica Więcborka</TextHeader>
-      <TextLine>przekrój 1x2</TextLine>
-      <TextLine>- droga klasy G,</TextLine>
-      <TextLine>- obciążenie – 115 kN/oś,</TextLine>
-      <TextLine>- prędkość projektowa – 70 km/h,</TextLine>
-      <TextLine> - prędkość miarodajna – 80-90 km/h,</TextLine>
-      <TextLine>- kategoria ruchu KR-4</TextLine>
-      <TextLine>- skrajnia drogi – min. 4,60m</TextLine>
-      <TextLine>- droga jednojezdniowa, dwu pasowa 1x2</TextLine>
-      <TextLine>- szerokość pasa ruchu – 3,50 m,</TextLine>
-      <TextLine>- szerokość opaski zewnętrznej – 0,50 m,</TextLine>
-      <TextLine>
-        - szerokość pobocza gruntowego ulepszonego – min.1,25m
-      </TextLine>
-      <br />
-      <TextLine>Drogi gminne i powiatowe (L):</TextLine>
-      <TextLine>・ klasy drogi - L,</TextLine>
-      <TextLine>・ prędkość projektowa – 40 km/h,</TextLine>
-      <TextLine>・ szerokość jezdni – 5,5m</TextLine>
-      <TextLine>
-        ・ szerokość pobocza gruntowego – 0,75-1,25 (w miejscu występowania
-        barier)
-      </TextLine>
-      <TextLine> ・ kategoria ruchu – KR2, KR3</TextLine>
-      <TextLine> ・ obciążenie – 100kN/oś</TextLine>
-      <br />
-      <TextLine> Drogi serwisowe dojazdy do nieruchomości (D)</TextLine>
-      <TextLine> ・ klasy drogi - D,</TextLine>
-      <TextLine>・ prędkość projektowa – 30 km/h,</TextLine>
-      <TextLine>・ szerokość jezdni – 3,5m</TextLine>
-      <TextLine>・ szerokość pobocza gruntowego – 0,75</TextLine>
-      <TextLine>・ kategoria ruchu – KR1</TextLine>
-      <TextLine>・ obciążenie – 100kN/oś</TextLine>
-      <br />
-      <TextHeader>Wariant I – opis trasy</TextHeader>
-      <br />
-      <TextHeader>Wariant I – długość trasy 5,465 km (niebieski)</TextHeader>
+      <TextHeader>Wariant I – długość trasy 9,679 km (niebieski)</TextHeader>
       <TextLine>
         Początek trasy został określony na dowiązaniu do istniejącej drogi
-        wojewódzkiej nr 241 przed wlotem do miasta Więcbork gdzie projektowane
-        jest skrzyżowanie typu rondo natomiast koniec trasy zlokalizowano na
-        dowiązaniu do istniejącego skrzyżowania typu rondo z drogami
-        wojewódzkimi nr 241 i 242 po stronie południowej Więcborka. Początkowo
-        projektowana trasa przebiega po terenie otwartym przecinając istniejące
-        pola i łąki. W km ok. 1+067 trasa przecina nieczynną linię kolejową a
-        następnie przechodzi przez wolny pas terenu pomiędzy ogródkami
-        działkowymi a kompleksem sztucznie nasadzonych drzew. Następnie w km ok.
-        1+509 trasa przecina drogę powiatową nr 1129C gdzie zaprojektowano
-        kolejne skrzyżowanie jednopoziomowe typu rondo. Następnie trasa biegnie
-        dalej w terenie otwartym (pola i łąki) zmienia kierunek na południowy i
-        omija msc. Witunia po stronie zachodniej. W km ok. 3+347 trasa przecina
-        drogę wojewódzką nr 189 gdzie zaprojektowano kolejne skrzyżowanie typu
-        rondo zapewniające podłączenie do obwodnicy terenów sąsiedniej msc.
-        Witunia. Dalszy przebieg trasy w wariancie I zaprojektowano również w
-        terenie otartym. W km ok 4+536 trasa przecina bezkolizyjnie istniejącą
-        linię kolejową nr 281 Nakło nad Notecią – Chojnice. Następnie trasa
-        omija po stronie północno wschodniej cmentarz i łączy się z istniejącym
-        skrzyżowaniem typu rondo z drogą wojewódzką nr 241 i 242 poprzez
-        projektowaną dobudowę czwartego wlotu jednocześnie kończąc przebieg
-        wariantu I.
+        wojewódzkiej nr 554 po stronie północno zachodniej przed wlotem do
+        miasta Golub-Dobrzyń gdzie projektowane jest skrzyżowanie typu rondo
+        natomiast koniec trasy zlokalizowano na dowiązaniu do istniejącej drogi
+        wojewódzkiej nr 554 po stronie południowej na wylocie z miasta
+        Golub-Dobrzyń gdzie trasę obwodnicy powiązano z istniejącym układem
+        komunikacyjnym również poprzez skrzyżowanie typu rondo. Początkowo
+        projektowana trasa przebiega w terenie otwartym w kierunku wschodnim
+        omijając tereny miasta od strony północnej. Obwodnica na tym odcinku
+        przecina głównie istniejące tereny rolne oraz lokalnie pojedyncze
+        zadrzewienia. W km ok. 0+800 trasa zasadnicza przecina istniejącą drogę
+        wojewódzką nr 534 gdzie zaprojektowano kolejne skrzyżowanie
+        jednopoziomowe typu rondo. Następnie obwodnica przebiega dalej w
+        kierunku wschodnim, bezkolizyjnie w terenie otwartym o charakterze
+        rolniczym. Dalej trasa w km ok.1+800 zmienia kierunek na
+        południowo-wschodni przecinając w km ok. 2+020 nieczynną linię kolejową
+        przeznaczoną do rozbiórki. Następnie obwodnica przecina drogę powiatową
+        nr 2114C gdzie projektowane jest kolejne skrzyżowanie jednopoziomowe
+        typu rondo. Dalej trasa zmienia nieznacznie kierunek na wschodni
+        przebiegając bezkolizyjnie w otwartym terenie o charakterze rolniczym,
+        lokalnie przecinając zadrzewienia. Następnie trasa przecina kolejną
+        drogę powiatową nr 2115C w km ok.3+754 gdzie projektowane jest również
+        skrzyżowanie typu rondo. Dalej trasa zmienia kierunek na południowo
+        wschodni przebiegając lokalnie równolegle w sąsiedztwie zabudowań
+        mieszkalnych i doliny rzeki Drwęcy, którą następnie w km ok. 4+697
+        przecina na projektowanym moście. Dalej trasa przebiega w kierunku
+        południowym w terenie leśnym omijając miasto Golub – Dobrzyń po stronie
+        wschodniej. W km ok. 4+886 obwodnica przecina drogę gminną nr 110238G
+        gdzie projektowany jest przejazd bezkolizyjny gospodarczy. Następnie
+        trasa obwodnicy w km ok. 5+907 przecina istniejącą drogę wojewódzką nr
+        534 gdzie projektowane jest kolejne skrzyżowanie jednopoziomowe typu
+        rondo. Dalej trasa przebiega w kierunku południowo-zachodnim, głównie po
+        terenach leśnych omijając m.in. od strony zachodniej w km ok. 6+730
+        Gminne Składowisko Odpadów Komunalnych. Następnie trasa w km ok. 7+060
+        przebiega bezkolizyjnie nad lokalną drogą gminną gdzie zaprojektowano
+        kolejny przejazd gospodarczy a dalej w km ok. 7+270 kolejny obiekt
+        mostowy na Strudze Radomińskiej. Następnie w km ok. 7+506 obwodnica
+        przecina drogę powiatową nr 2127C, z którą łączy się poprzez
+        skrzyżowanie typu rondo. Dalszy przebieg trasy zaplanowano w kierunku
+        południowo-zachodnim po terenach leśnych, przecinając m.in. w km ok
+        9+010 rzekę Ruziec gdzie zaprojektowano kolejny most. Koniec wariantu I
+        obwodnicy zlokalizowano w km ok.9+679 na projektowanym skrzyżowaniu z
+        istniejącą drogą wojewódzką nr 554.
       </TextLine>
+      <TextHeader>Dane podstawowe dla wariantu I:</TextHeader>
+      <TextLine>- długość trasy 9679m</TextLine>
+      <TextLine>- liczba skrzyżowań typu rondo: 7</TextLine>
+      <TextLine>- liczba obiektów mostowych: 5</TextLine>
       <br />
-      <TextHeader>Wariant II – opis trasy</TextHeader>
+      <TextHeader>WARIANT II – OPIS KORYTARZA TRASY W PLANIE</TextHeader>
       <br />
-      <TextHeader>Wariant II – długość trasy 4,182 km (czerwony)</TextHeader>
+      <TextHeader>Wariant II – długość trasy 10,040 km (czerwony)</TextHeader>
       <TextLine>
-        Początek trasy podobnie jak w wariancie I został zaprojektowany na
-        dowiązaniu do istniejącej drogi wojewódzkiej nr 241 przed wlotem do
-        miasta Więcbork gdzie projektowane jest skrzyżowanie typu rondo
-        natomiast koniec trasy zlokalizowano na dowiązaniu do istniejącego
-        skrzyżowania typu rondo z drogami wojewódzkimi nr 241 i 242 po stronie
-        południowej Więcborka. Początkowo projektowana trasa przebiega po
-        terenie otwartym przecinając istniejące pola i łąki. W km ok. 0+798
-        trasa przecina nieczynną linię kolejową a następnie lokalny kompleks
-        sztucznie nasadzonych drzew. Następnie w km ok. 1+360 trasa przecina
-        drogę powiatową nr 1129C gdzie zaprojektowano kolejne skrzyżowanie
-        jednopoziomowe typu rondo. Dalszy przebieg trasy odbywa się również
-        terenami rolnymi aż do do km ok. 2+106 gdzie trasa przecina
-        bezkolizyjnie drogę gminną nr 020207C a następnie tereny msc. Witunia. W
-        km ok. 2+627 trasa przecina drogę wojewódzką nr 189 gdzie zaprojektowano
-        kolejne skrzyżowanie typu rondo zapewniające podłączenie do obwodnicy
-        msc. Witunia. W porównaniu do wariantu I i III trasa przebiega na tym
-        odcinku w obszarze ścisłej zabudowy. Dalszy przebieg trasy w wariancie
-        II zaprojektowano z wykorzystaniem maksymalnie wolnych od zabudowy
-        terenów rolnych oraz łąk za wyjątkiem terenów w sąsiedztwie ul.
-        Wiatrakowej gdzie lokalnie trasa zbliża się do istniejącej zabudowy. W
-        km ok. 3+397 trasa przecina bezkolizyjnie istniejącą linię kolejową nr
-        281 Nakło nad Notecią – Chojnice. Następnie trasa omija po stronie
-        północno wschodniej cmentarz i łączy się z istniejącym skrzyżowaniem
-        typu rondo z drogą wojewódzką nr 241 i 242 poprzez projektowaną dobudowę
-        czwartego wlotu jednocześnie kończąc przebieg wariantu II.
+        Początek trasy został określony na istniejącym skrzyżowaniu dróg
+        wojewódzkich DW554 i DW534 na północnym wlocie do miasta Golub-Dobrzyń
+        gdzie zaplanowano jego rozbudowę natomiast koniec trasy zlokalizowano na
+        dowiązaniu do istniejącej drogi wojewódzkiej nr 569 w zachodniej części
+        miasta Golub-Dobrzyń gdzie obwodnicę powiązano z istniejącym układem
+        komunikacyjnym poprzez skrzyżowanie typu rondo. Początkowo projektowana
+        obwodnica przebiega w kierunku północno-wschodnim po terenie nieczynnej
+        linii kolejowej w sąsiedztwie zabudowy przemysłowej oraz lokalnie
+        budynków mieszkalnych. Następnie w km ok. 0+850 trasa przecina drogę
+        powiatową nr 2114C gdzie zaplanowano kolejne skrzyżowanie jednopoziomowe
+        typu rondo. Dalej trasa zmienia nieznacznie kierunek na wschodni
+        przebiegając bezkolizyjnie w otwartym terenie o charakterze rolniczym,
+        lokalnie przecinając zadrzewienia. Następnie trasa przecina kolejną
+        drogę powiatową nr 2115C w km ok.2+638 gdzie projektowane jest również
+        skrzyżowanie typu rondo. Dalej trasa zmienia kierunek na południowo
+        wschodni przebiegając lokalnie równolegle w sąsiedztwie zabudowań
+        mieszkalnych i doliny rzeki Drwęcy, którą następnie w km ok. 3+575
+        przecina na projektowanym moście. Następnie trasa przebiega w kierunku
+        południowym w terenie leśnym omijając miasto Golub – Dobrzyń po stronie
+        wschodniej. W km ok. 3+780 obwodnica przecina drogę gminną nr 110238G
+        gdzie projektowany jest przejazd bezkolizyjny gospodarczy. Następnie
+        trasa obwodnicy w km ok. 4+793 przecina istniejącą drogę wojewódzką nr
+        534 gdzie projektowane jest kolejne skrzyżowanie jednopoziomowe typu
+        rondo. Dalej trasa przebiega w kierunku południowo-zachodnim, głównie po
+        terenach leśnych omijając m.in. od strony zachodniej w km ok. 5+600
+        Gminne Składowisko Odpadów Komunalnych. Następnie obwodnica w km ok.
+        5+940 przebiega bezkolizyjnie nad lokalną drogą gminną gdzie
+        zaprojektowano kolejny przejazd gospodarczy a dalej w km ok. 6+150
+        kolejny obiekt mostowy na Strudze Radomińskiej. Następnie projektowana
+        obwodnica w km ok. 6+380 przecina drogę powiatową nr 2127C, z którą
+        łączy się poprzez skrzyżowanie typu rondo. Dalszy przebieg trasy
+        zaplanowano w kierunku zachodnim po terenach leśnych oraz lokalnie w
+        sąsiedztwie zabudowy mieszkaniowej i gospodarczej. Następnie w km ok.
+        8+680 trasa przecina drogę wojewódzką nr 554 gdzie projektowane jest
+        kolejne skrzyżowanie typu rondo. Dalej trasa przebiega lokalnie w
+        sąsiedztwie zabudowy mieszkaniowej a następnie przecina kolejny kompleks
+        leśny wraz z lokalną drogą gminną (ul. Leśna) gdzie w km ok. 9+180
+        zaplanowano kolejny bezkolizyjny przejazd gospodarczy. Następnie trasa
+        zmienia kierunek na północno zachodni przecinając w km ok. 9+420 drugi
+        raz rzekę Drwęca gdzie zaprojektowano nowy most. Dalej trasa przebiega
+        częściowo w terenie leśnym oraz rolniczym przecinając lokalnie strefę
+        zabudowy mieszkaniowej w sąsiedztwie istniejącej drogi wojewódzkiej nr
+        569, w dowiązaniu do której zaplanowano koniec wariantu II. Koniec
+        obwodnicy w wariancie II zaplanowano również na projektowanym
+        skrzyżowaniu typu rondo.
       </TextLine>
+      <TextHeader>Dane podstawowe dla wariantu II:</TextHeader>
+      <TextLine>- długość trasy 10 040m</TextLine>
+      <TextLine>- liczba skrzyżowań typu rondo: 7</TextLine>
+      <TextLine>- liczba obiektów mostowych: 6</TextLine>
       <br />
-      <TextHeader>Wariant III – opis trasy</TextHeader>
+      <TextHeader>WARIANT III – OPIS KORYTARZA TRASY W PLANIE</TextHeader>
       <br />
-      <TextHeader>Wariant III – długość trasy 5,698 km (fioletowy)</TextHeader>
+      <TextHeader>Wariant III – długość trasy 8,256 km (zielony)</TextHeader>
       <TextLine>
-        Początek trasy podobnie jak w wariancie I i II został zaprojektowany na
-        dowiązaniu do istniejącej drogi wojewódzkiej nr 241 przed wlotem do
-        miasta Więcbork gdzie projektowane jest skrzyżowanie typu rondo
-        natomiast koniec trasy zlokalizowano na dowiązaniu do istniejącego
-        skrzyżowania typu rondo z drogami wojewódzkimi nr 241 i 242 po stronie
-        południowej Więcborka Wariant III na odcinku do skrzyżowania z drogą
-        wojewódzką nr 189 jest tożsamy z wariantem I. Następnie dalszy przebieg
-        na południe również odbywa się po terenach rolnych, wolnych od zabudowy.
-        W km ok 4+223 trasa przecina bezkolizyjnie istniejącą linię kolejową nr
-        281 Nakło nad Notecią – Chojnice. Następnie trasa omija po stronie
-        południowej dwie elektrownie wiatrowe a następnie zmienia kierunek i
-        omijając od północy cmentarz i łączy się z istniejącym skrzyżowaniem
-        typu rondo z drogą wojewódzką nr 241 i 242 poprzez projektowaną dobudowę
-        czwartego wlotu jednocześnie kończąc przebieg wariantu II.
+        Początek trasy został określony na dowiązaniu do istniejącej drogi
+        wojewódzkiej nr 569 po stronie zachodniej miasta Golub-Dobrzyń gdzie
+        projektowane jest skrzyżowanie typu rondo natomiast koniec trasy
+        zlokalizowano na dowiązaniu do istniejącej drogi wojewódzkiej nr 534 po
+        stronie wschodniej na wylocie z miasta Golub-Dobrzyń gdzie trasę
+        obwodnicy powiązano z istniejącym układem komunikacyjnym również poprzez
+        skrzyżowanie typu rondo. Początkowo projektowana obwodnica przebiega w
+        kierunku północnym po terenie charakteryzującym się znaczną różnicą
+        wysokości co wymusiło zaprojektowanie za rondem wieloprzęsłowej estakady
+        nad doliną cieku Czarna oraz jednocześnie nad drogą gminną nr 110244C.
+        Przecinany teren na tym odcinku trasy to głównie skupiska leśne oraz
+        łąki. Dalszy przebieg obwodnicy po pokonaniu doliny przebiega już w
+        terenie płaskim o charakterze rolniczym. W km ok. 1+100 projektowana
+        obwodnica łączy się z drogą powiatową nr 2111C gdzie projektowane jest
+        skrzyżowanie jednopoziomowe typu rondo. Następnie trasa biegnie cały
+        czas w kierunku północnym przecinając pola oraz w km ok. 2+230 nieczynną
+        linię kolejowa przeznaczoną do likwidacji. Następnie trasa w km ok.
+        2+555 przecina istniejącą drogę wojewódzką nr 554 gdzie zaprojektowano
+        kolejne skrzyżowanie typu rondo. Dalej trasa obwodnicy zmienia kierunek
+        na wschodni i w km ok. 3+148 przecina istniejącą drogę wojewódzką nr 534
+        gdzie zaprojektowano kolejne skrzyżowanie jednopoziomowe typu rondo.
+        Następnie obwodnica przebiega dalej w kierunku wschodnim, bezkolizyjnie
+        w terenie otwartym o charakterze rolniczym. Dalej trasa w km ok.4+300
+        zmienia kierunek na południowo-wschodni przecinając w km ok. 4+350
+        ponownie nieczynną linię kolejową przeznaczoną do rozbiórki. Następnie
+        obwodnica przecina w km ok. 4+700 drogę powiatową nr 2114C gdzie
+        projektowane jest kolejne skrzyżowanie jednopoziomowe typu rondo. Dalej
+        trasa zmienia nieznacznie kierunek na wschodni przebiegając
+        bezkolizyjnie w otwartym terenie o charakterze rolniczym, lokalnie
+        przecinając zadrzewienia. Następnie trasa przecina kolejną drogę
+        powiatową nr 2115C w km ok.6+100 gdzie projektowane jest również
+        skrzyżowanie typu rondo. Dalej trasa zmienia kierunek na południowo
+        wschodni przebiegając lokalnie równolegle w sąsiedztwie zabudowań
+        mieszkalnych i doliny rzeki Drwęcy, którą następnie w km ok. 7+040
+        przecina na projektowanym moście. Następnie trasa przebiega w kierunku
+        południowym w terenie leśnym omijając miasto Golub – Dobrzyń po stronie
+        wschodniej. W km ok. 7+230 obwodnica przecina drogę gminną nr 110238G
+        gdzie projektowany jest przejazd bezkolizyjny gospodarczy. Następnie
+        trasa w km ok. 8+256 przecina istniejącą drogę wojewódzką nr 534 gdzie
+        projektowane jest kolejne skrzyżowanie jednopoziomowe typu rondo i
+        jednocześnie kończy się wariant III obwodnicy.
       </TextLine>
+      <TextHeader>Dane podstawowe dla wariantu III:</TextHeader>
+      <TextLine>- długość trasy 8256m</TextLine>
+      <TextLine>- liczba skrzyżowań typu rondo: 7</TextLine>
+      <TextLine>- liczba obiektów mostowych: 3</TextLine>
     </Container>
   </Section>
 );

@@ -41,6 +41,7 @@ const mapContextReducer = (state, action) => {
         pointerB: action.pointerB,
       };
     case SET_DISTANCE_AB:
+      console.log("action", action);
       return {
         ...state,
         distanceAB: action.distanceAB,

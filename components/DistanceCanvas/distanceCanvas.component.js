@@ -5,29 +5,31 @@ import { useMapContext } from "../../context/mapContext";
 export const DistanceCanvas = memo(({ scale }) => {
   const canvas = useRef();
   const [{ pointerA, pointerB }] = useMapContext();
-
   useEffect(() => {
     const currentCanvas = canvas.current
       ? canvas.current.getContext("2d")
       : null;
     currentCanvas.clearRect(0, 0, 7875, 6623);
     if (
-      pointerA.x > -1 &&
-      pointerA.y > -1 &&
-      pointerB.x > -1 &&
-      pointerB.y > -1
+      pointerA.currentX > -1 &&
+      pointerA.currentY > -1 &&
+      pointerB.currentX > -1 &&
+      pointerB.currentY > -1
     ) {
       currentCanvas.strokeStyle = "#669df6"; // red color
       currentCanvas.lineWidth = 6 * (1 / scale);
       currentCanvas.lineCap = "round";
       currentCanvas.beginPath();
-      currentCanvas.moveTo(pointerA.x, pointerA.y);
-      currentCanvas.lineTo(pointerB.x, pointerB.y);
+      //currentCanvas.moveTo(0, 0);
+      currentCanvas.moveTo(pointerA.currentX, pointerA.currentY);
+      currentCanvas.lineTo(pointerB.currentX, pointerB.currentY);
+      //currentCanvas.lineTo(100, 100);
+
       currentCanvas.stroke();
     }
   }, [pointerA, pointerB, scale]);
 
-  return <Canvas ref={canvas} width={7875} height={6623} />;
+  return <Canvas ref={canvas} width={7876} height={6623} />;
 });
 
 DistanceCanvas.displayName = "DistanceCanvas";

@@ -1,15 +1,15 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { VariantsDescriptionSection } from "../components/VariantsDescriptionSection";
-import { PreferedVariantSection } from "../components/PrefferedVariantSection";
-import { VariantsComparisonSection } from "../components/VariantsComparisonSection";
+import { PodstawoweParametryTechniczne } from "../components/PodstawoweParametryTechniczne";
 
 const OpisWariantów = () => {
   return (
     <Container>
       <VariantsDescriptionSection />
-      <PreferedVariantSection />
-      <VariantsComparisonSection />
+      <PodstawoweParametryTechniczne />
+      {/* <PreferedVariantSection />
+      <VariantsComparisonSection /> */}
     </Container>
   );
 };

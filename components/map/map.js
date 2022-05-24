@@ -28,7 +28,7 @@ import {
   resetDistance,
 } from "../../context/mapContext";
 
-const mapSrc = "./images/map-2.jpg";
+const mapSrc = "./images/GD_30-1.jpg";
 
 const defaultCursorStyle = { cursor: "default" };
 const moveCursorStyle = { cursor: "move" };
@@ -57,7 +57,7 @@ export const Map = () => {
     const currentY = y;
     setMarkerA({ x: currentX, y: currentY });
     dispatch(setPointerA({ currentX, currentY }));
-    calculateDistance({ x: currentX, y: currentY }, pointerB);
+    calculateDistance({ currentX, currentY }, pointerB);
   };
 
   const togglePointB = () => {
@@ -65,7 +65,7 @@ export const Map = () => {
     const currentY = y;
     setMarkerB({ x: currentX, y: currentY });
     dispatch(setPointerB({ currentX, currentY }));
-    calculateDistance(pointerA, { x: currentX, y: currentY });
+    calculateDistance(pointerA, { currentX, currentY });
   };
 
   const removePoint = (type) => {
@@ -86,11 +86,20 @@ export const Map = () => {
   };
 
   const calculateDistance = (A, B) => {
+    console.log(A, B);
     // Pythagoras
-    if (A.x >= 0 && A.y >= 0 && B.x >= 0 && B.y >= 0) {
+    if (
+      A.currentX >= 0 &&
+      A.currentY >= 0 &&
+      B.currentX >= 0 &&
+      B.currentY >= 0
+    ) {
       const distance =
-        Math.sqrt(Math.pow(A.x - B.x, 2) + Math.pow(A.y - B.y, 2)) * 1.69;
-      setDistanceAB(distance);
+        Math.sqrt(
+          Math.pow(A.currentX - B.currentX, 2) +
+            Math.pow(A.currentY - B.currentY, 2)
+        ) * 1.2693899;
+      dispatch(setDistanceAB(distance));
     }
   };
 
@@ -160,13 +169,7 @@ export const Map = () => {
                 onMouseMove={onMapMouseMove}
                 onTouchStart={onTouchStart}
               >
-                <MapImg
-                  draggable={false}
-                  src={mapSrc}
-                  width={3672}
-                  height={2410}
-                  style={cursorStyle}
-                />
+                <MapImg draggable={false} src={mapSrc} style={cursorStyle} />
                 <DistanceCanvas scale={mapInteractionValue.scale} />
                 {markerA && (
                   <Marker
