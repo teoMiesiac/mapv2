@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Draggable from "react-draggable";
 import { ContextMenuTrigger } from "react-contextmenu";
 import { MapInteractionCSS as MapZoomWraper } from "react-map-interaction";
+import { useResizeDetector } from "react-resize-detector";
 
 import {
   Container,
@@ -38,6 +39,8 @@ const headerHeight = 80;
 export const Map = () => {
   const [{ pointerA, pointerB, distanceAB }, dispatch] = useMapContext();
   const [disableContext, setDisableContext] = useState(false);
+  const { width, ref } = useResizeDetector();
+  console.log("widt", width);
   const [x, setX] = useState(0);
   const [y, setY] = useState(0);
   const [markerA, setMarkerA] = useState(null);
@@ -86,7 +89,6 @@ export const Map = () => {
   };
 
   const calculateDistance = (A, B) => {
-    console.log(A, B);
     // Pythagoras
     if (
       A.currentX >= 0 &&
@@ -133,11 +135,17 @@ export const Map = () => {
   };
 
   const onTouchStart = (e) => {
-    setX((e.touches[0].clientX - mapTranslation.x) / scale);
+    setX(
+      (e.touches[0].clientX - mapInteractionValue.translation.x) /
+        mapInteractionValue.scale
+    );
     setY(
-      (e.touches[0].clientY - mapTranslation.y) / scale - headerHeight / scale
+      (e.touches[0].clientY - mapInteractionValue.translation.y) /
+        mapInteractionValue.scale -
+        headerHeight / mapInteractionValue.scale
     );
   };
+
   return (
     <>
       <br />
@@ -157,8 +165,11 @@ export const Map = () => {
         </>
       )}
 
-      <Container>
-        <ContextMenuTrigger id="same_unique_identifier" holdToDisplay={1000}>
+      <Container ref={ref}>
+        <ContextMenuTrigger
+          id="same_unique_identifier"
+          holdToDisplay={width >= 932 ? -1 : 1000}
+        >
           <Draggable onStart={handleStart} onStop={handleStop}>
             <MapZoomWraper
               value={mapInteractionValue}
