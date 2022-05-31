@@ -35,8 +35,12 @@ export const Layout = ({ children }) => {
               <KujPomHerb />
             </LeftIconWrapper>
             <Link href="/" passHref>
-              <Navbar.Brand href="#home" className="text-wrap">
-                BUDOWA OBWODNICY WIĘCBORKA
+              <Navbar.Brand
+                href="#home"
+                className="text-wrap"
+                style={{ fontSize: "1rem" }}
+              >
+                Obwodnica miasta Golubia-Dobrzynia
               </Navbar.Brand>
             </Link>
             <InfoIconWrapper onClick={handleShow}>
@@ -86,8 +90,10 @@ export const Layout = ({ children }) => {
 
       <Modal show={show} onHide={handleClose} centered>
         <Modal.Body>
-          BUDOWA OBWODNICY WIĘCBORKA OPRACOWANIE STUDIUM TECHNICZNO -
-          EKONOMICZNO – ŚRODOWISKOWEGO (POPRAWA BEZPIECZEŃSTWA RUCHU DROGOWEGO)
+          BUDOWA OBWODNICY MIASTA GOLUBIA-DOBRZYNIA WIĘCBORKA - opracowanie
+          Studium Techniczno-Ekonomiczno-Środowiskowego wraz z uzyskaniem
+          decyzji środowiskowych urwarunkowaniach zgody na realizację
+          przedsięwzięcia
         </Modal.Body>
         <Modal.Footer>
           <Button variant="outline-primary" onClick={handleClose}>
