@@ -3,11 +3,7 @@ import { Container } from "react-bootstrap";
 import { ApplicationAnalysisSection } from "../components/ApplicationAnalysisSection";
 
 const UwagiWnioski = () => {
-  return (
-    <Container>
-      <ApplicationAnalysisSection />
-    </Container>
-  );
+  return <Container style={{ flex: "auto" }}></Container>;
 };
 
 export default UwagiWnioski;

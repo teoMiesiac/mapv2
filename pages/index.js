@@ -66,21 +66,19 @@ export const Redirect = styled(Link)`
 
 export default function Home() {
   return (
-    <Container className="text-justify">
+    <Container className="text-justify" style={{ flex: "auto" }}>
       <Pre>
         <br />
-        <TextHeader>Obwodnica Więcborka – II konsultacje społeczne</TextHeader>
+        <TextHeader>
+          Obwodnica miasta Golub-Dobrzyń – konsultacje społeczne
+        </TextHeader>
         <br />
         <TextLine>Szanowni Państwo,</TextLine>
         <br />
         <TextLine>
-          <b>W dniach od 6-31 lipca br.</b>, trwają II konsultacje społeczne,
+          <b>W dniach od 1-30 czerwca br.</b>, trwają konsultacje społeczne,
           których celem jest wybór wariantu rekomendowanego do realizacji dla
-          obwodnicy Więcborka. Podczas I konsultacji nie wyłoniono rozwiązania
-          inwestycyjnego, które uzyskałoby akceptację wszystkich
-          zainteresowanych stron. W zakładce „Uwagi i wnioski” znajdą Państwo
-          zestawienie wszystkich wniosków, zgłoszonych w ramach I konsultacji
-          społecznych.
+          obwodnicy miasta Golub-Dobrzyń.
         </TextLine>
         <br />
         <TextLine>
@@ -97,25 +95,19 @@ export default function Home() {
         </TextLine>
         <br />
         <TextLine>
-          Wszelkie uwagi i wnioski w ramach II konsultacji społecznych należy
-          składać do 31 lipca 2020 roku wyłącznie w formie pisemnej :
+          Wszelkie uwagi i wnioski w ramach konsultacji społecznych należy
+          składać do 30 czerwca 2022 roku wyłącznie w formie pisemnej, na
+          załączonym formularzu wniosku (zakładka „Formularz wniosku”):
         </TextLine>
         <br />
-        <TextLine>
-          &nbsp;&nbsp;&nbsp;&nbsp;- osobiście: w Urzędzie Miejskim w Więcborku,
-          ul. Mickiewicza 22, 89-410 Więcbork,
-        </TextLine>
         <TextLine>
           &nbsp;&nbsp;&nbsp;&nbsp;- elektronicznie na adres:
-          umwiecbork@wiecbork.pl
+          pracownia@archidrog.pl
         </TextLine>
-        <br />
         <TextLine>
-          Informujemy ponadto, iż materiały poddane konsultacjom społecznym
-          dostępne są również w formie tradycyjnej do wglądu w Urzędzie Miejskim
-          w Więcborku.
+          &nbsp;&nbsp;&nbsp;&nbsp;- osobiście: w Zarządzie Dróg Wojewódzkich w
+          Bydgoszczy (Biuro Podawcze) ul. Dworcowa 80, 85-010 Bydgoszcz,
         </TextLine>
-        <br />
         <br />
         <br />
         <br />

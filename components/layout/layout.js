@@ -65,8 +65,8 @@ export const Layout = ({ children }) => {
               <Link href="/plan-orientacyjny" passHref>
                 <Nav.Link className="text-nowrap">Plan orientacyjny</Nav.Link>
               </Link>
-              <Link href="/uwagi-wnioski" passHref>
-                <Nav.Link className="text-nowrap"> Uwagi i wnioski</Nav.Link>
+              <Link href="/formularz-wniosku" passHref>
+                <Nav.Link className="text-nowrap">Formularz wniosku</Nav.Link>
               </Link>
             </Nav>
           </Navbar.Collapse>
