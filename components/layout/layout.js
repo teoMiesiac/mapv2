@@ -89,10 +89,11 @@ export const Layout = ({ children }) => {
       </footer>
 
       <Modal show={show} onHide={handleClose} centered>
+        <Modal.Title></Modal.Title>
         <Modal.Body>
-          BUDOWA OBWODNICY MIASTA GOLUBIA-DOBRZYNIA WIĘCBORKA - opracowanie
-          Studium Techniczno-Ekonomiczno-Środowiskowego wraz z uzyskaniem
-          decyzji środowiskowych urwarunkowaniach zgody na realizację
+          BUDOWA OBWODNICY MIASTA GOLUBIA-DOBRZYNIA WIĘCBORKA <br />
+          Opracowanie Studium Techniczno-Ekonomiczno-Środowiskowego wraz z
+          uzyskaniem decyzji środowiskowych urwarunkowaniach zgody na realizację
           przedsięwzięcia
         </Modal.Body>
         <Modal.Footer>
