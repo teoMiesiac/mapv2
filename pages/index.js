@@ -97,11 +97,17 @@ export default function Home() {
         <br />
         <TextLine>
           &nbsp;&nbsp;&nbsp;&nbsp;- elektronicznie na adres:
-          pracownia@archidrog.pl
+          pracownia@archidrog.pl,
         </TextLine>
         <TextLine>
-          &nbsp;&nbsp;&nbsp;&nbsp;- osobiście: w Zarządzie Dróg Wojewódzkich w
-          Bydgoszczy (Biuro Podawcze) ul. Dworcowa 80, 85-010 Bydgoszcz,
+          &nbsp;&nbsp;&nbsp;&nbsp;- listownie: w Zarządzie Dróg Wojewódzkich w
+          Bydgoszczy (Biuro Podawcze) ul. Dworcowa 80, 85-010 Bydgoszcz.
+        </TextLine>
+        <br />
+        <TextLine>
+          Materiały dostępne są również w siedzibie Miasta Golub-Dobrzyń, Gminy
+          Golub-Dobrzyń, Starostwa Powiatowego Golubia-Dobrzynia oraz Zarządzie
+          Dróg Wojewódzkich w Bydgoszczy.
         </TextLine>
         <br />
         <br />
