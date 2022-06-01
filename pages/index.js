@@ -82,11 +82,6 @@ export default function Home() {
         </TextLine>
         <br />
         <TextLine>
-          Materiały do zaopiniowania w ramach II konsultacji społecznych – z
-          uwagi na COVID-19 – są dostępne poprzez niniejszą stronę internetową.
-        </TextLine>
-        <br />
-        <TextLine>
           Zachęcamy Państwa do zapoznania się z przebiegiem proponowanych
           rozwiązań obwodnicy. Na mapie wskazano wszystkie warianty obejścia
           (zakładka „Plan Orientacyjny”). Istnieje możliwość pomiaru odległości

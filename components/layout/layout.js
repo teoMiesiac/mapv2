@@ -31,9 +31,6 @@ export const Layout = ({ children }) => {
       <Navbar bg="light" expand="lg" sticky="top">
         <Container>
           <div className="d-flex flex-row flex-nowrap align-items-center">
-            <LeftIconWrapper>
-              <KujPomHerb />
-            </LeftIconWrapper>
             <Link href="/" passHref>
               <Navbar.Brand
                 href="#home"
@@ -78,11 +75,6 @@ export const Layout = ({ children }) => {
           <Row>
             <Col>
               <ContactInfo />
-            </Col>
-            <Col>
-              <Container className="h-100 align-items-center justify-content-end d-none d-md-flex">
-                <img src={logoSRC} alt="" height="100px" />
-              </Container>
             </Col>
           </Row>
         </Container>

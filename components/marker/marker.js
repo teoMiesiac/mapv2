@@ -7,7 +7,6 @@ const pinB = "./images/pinB.png";
 
 export const Marker = ({ x, y, type, scale = 1 }) => {
   const calculatedScale = 1 / scale;
-  // console.log(calculatedScale);
   const transform = { transform: `scale(${calculatedScale}) translateX(-50%)` };
   return (
     <>

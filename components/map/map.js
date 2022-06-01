@@ -40,7 +40,6 @@ export const Map = () => {
   const [{ pointerA, pointerB, distanceAB }, dispatch] = useMapContext();
   const [disableContext, setDisableContext] = useState(false);
   const { width, ref } = useResizeDetector();
-  console.log("widt", width);
   const [x, setX] = useState(0);
   const [y, setY] = useState(0);
   const [markerA, setMarkerA] = useState(null);
